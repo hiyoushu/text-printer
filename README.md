@@ -6,12 +6,12 @@
 
 ## Installation
 
-  $ npm install text-printer -g
+    $ npm install text-printer -g
 
 ## Usage
 
-  $ text-printer print test.txt
+    $ text-printer print test.txt
 
 ## Help
 
-  $ text-printer -h
+    $ text-printer -h
