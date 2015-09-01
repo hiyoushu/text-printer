@@ -1,0 +1,24 @@
+{
+  "name": "text-printer",
+  "version": "1.0.5",
+  "description": "a typing text toy",
+  "main": "index.js",
+  "bin": {
+    "text-printer": "index.js"
+  },
+  "keywords": [
+    "text printer command line toy"
+  ],
+  "author": "hiyoushu <youshu90@gmail.com> (https://hiyoushu.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiyoushu/text-printer.git"
+  },
+  "scripts": {
+    "test": "node index.js print test/test.txt"
+  },
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
+}
