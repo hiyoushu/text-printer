@@ -15,3 +15,7 @@
 ## Help
 
     $ text-printer -h
+
+## License
+
+  MIT
