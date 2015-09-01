@@ -20,15 +20,15 @@ var fs = require('fs'),
         }
 
         if (stats.isFile()) {
-          console.log('print file: %s ...', filename);
+          console.log('print file: %s ', filename);
+          console.log('let\'s begin...');
           console.log('');
-          if (option.speed != '' && option.speed != undefined) {
+          if (option.speed != undefined && option.speed != '') {
             printText(filename, parseInt(option.speed, 10));
           } else{
             printText(filename, 75);
           }
-        }
-        else if (stats.isDirectory ()) {
+        } else if (stats.isDirectory ()) {
           console.log("sorry! %s is a directory", filename);
         }
       });

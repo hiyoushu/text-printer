@@ -1,7 +1,7 @@
 {
   "name": "text-printer",
-  "version": "1.0.6",
-  "description": "a typing text toy",
+  "version": "1.0.7",
+  "description": "a command line typing text toy",
   "main": "index.js",
   "bin": {
     "text-printer": "index.js"
